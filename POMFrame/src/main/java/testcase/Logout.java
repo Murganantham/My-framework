@@ -13,7 +13,7 @@ public class Logout extends Base {
 		home hb=new home();
 		hb.homepage();
 		
-		
+		driver.close();
 	}
 
 }
