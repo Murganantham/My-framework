@@ -2,15 +2,15 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="29759" started-at="2020-07-07T13:12:16 IST" finished-at="2020-07-07T13:12:46 IST">
+  <suite name="Default suite" duration-ms="42917" started-at="2020-07-07T13:50:45 IST" finished-at="2020-07-07T13:51:28 IST">
     <groups>
       <group name="smokeTest">
-        <method signature="logintest.testcase1()[pri:0, instance:testcase.logintest@76707e36]" name="testcase1" class="testcase.logintest"/>
+        <method signature="logintest.testcase1()[pri:0, instance:testcase.logintest@3c46e67a]" name="testcase1" class="testcase.logintest"/>
       </group> <!-- smokeTest -->
     </groups>
-    <test name="Default test" duration-ms="29759" started-at="2020-07-07T13:12:16 IST" finished-at="2020-07-07T13:12:46 IST">
+    <test name="Default test" duration-ms="42917" started-at="2020-07-07T13:50:45 IST" finished-at="2020-07-07T13:51:28 IST">
       <class name="testcase.logintest">
-        <test-method status="FAIL" signature="testcase1()[pri:0, instance:testcase.logintest@76707e36]" name="testcase1" duration-ms="29690" started-at="2020-07-07T13:12:16 IST" finished-at="2020-07-07T13:12:46 IST">
+        <test-method status="FAIL" signature="testcase1()[pri:0, instance:testcase.logintest@3c46e67a]" name="testcase1" duration-ms="42811" started-at="2020-07-07T13:50:45 IST" finished-at="2020-07-07T13:51:28 IST">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
