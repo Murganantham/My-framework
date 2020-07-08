@@ -5,17 +5,16 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class Base {
 	
-	public WebDriver driver;
+	public static WebDriver driver;
 	
-	public void smbase() throws InterruptedException {
+	public static void smbase() throws InterruptedException {
 		
 		System.setProperty("webdriver.gecko.driver", "./Drivers/geckodriver.exe");
 		driver= new  FirefoxDriver();
-
+		driver.manage().window().maximize();
 		driver.get("https://my.reviewrev.com/login");
 		driver.manage().window().maximize();
 		Thread.sleep(10000);
-		
 		
 	}
 	

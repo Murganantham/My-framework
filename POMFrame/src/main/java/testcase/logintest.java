@@ -6,14 +6,13 @@ import baseclass.Base;
 import pages.Login;
 
 public class logintest extends Base {
-
+	
 	@Test(groups = { "smokeTest" })
-	public void testcase1() throws InterruptedException {
-		Login ab = new Login();
+	public void testcase1() throws InterruptedException {		
 		smbase();
-
+		Login ab = new Login();		
 		ab.logpage();
-
+		driver.quit();
 	}
 
 }

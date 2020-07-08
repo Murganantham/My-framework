@@ -16,13 +16,11 @@ public class Login extends Base {
 	WebElement loginbutton;
 
 	public Login() {
-
 		PageFactory.initElements(driver, this);
-
 	}
 
-	public void logpage() {
-		
+	public void logpage() {		
+		System.out.println("driver in Login page");
 		emailidfield.sendKeys("patch@yopmail.com");
 		Passwordfield.sendKeys("test");
 		loginbutton.click();
